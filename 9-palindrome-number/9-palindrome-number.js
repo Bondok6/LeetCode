@@ -1,3 +1,3 @@
 const isPalindrome = function(x) {
-    return x == String(x).split('').reverse().join('')
+    return x == String(x).split('').reverse().join('');
 };
