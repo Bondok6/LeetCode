@@ -1,4 +1,4 @@
-let numberOfSteps = function(num) {
+const numberOfSteps = function(num) {
     let count = 0;
     while(num != 0){
         if(num % 2 == 0){
