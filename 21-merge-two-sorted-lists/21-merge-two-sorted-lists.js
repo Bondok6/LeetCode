@@ -33,7 +33,7 @@ var mergeTwoLists = function(list1, list2) {
     return Dummy.next
 };
 
-// Solution #1
+// Solution #1 Arrays.
 
 //     let result = [];
 //     let i = 0;
@@ -61,7 +61,7 @@ var mergeTwoLists = function(list1, list2) {
     
 //     return result
 
-// Solution #2
+// Solution #2 Arrays.
 
 // const result = [ ...list1, ...list2]
 // return result.sort();
