@@ -14,7 +14,7 @@
 // const climbStairs = (n) => wayToClimb(0, n);
 
 
-var climbStairs = function (n) {
+const climbStairs = (n) => {
     
     if (n === 1) return 1;
     if (n === 2) return 2;
