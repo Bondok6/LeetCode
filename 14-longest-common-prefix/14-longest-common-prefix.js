@@ -1,7 +1,3 @@
-/**
- * @param {string[]} strs
- * @return {string}
- */
 var longestCommonPrefix = function(strs) {
     if(strs.length === 0) return "";
     
@@ -11,9 +7,7 @@ var longestCommonPrefix = function(strs) {
         let currentWord = strs[i];
         let j = 0;
         
-        while(j < currentWord.length && j < currentWord.length && currentWord.charAt(j) === lcp.charAt(j)){
-            j++;
-        }
+        while(j < currentWord.length && j < currentWord.length && currentWord.charAt(j) === lcp.charAt(j)) j++;
         
         if(j === 0) return "";
         
